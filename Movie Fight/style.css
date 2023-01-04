@@ -1,0 +1,45 @@
+.hero {
+    margin-bottom: 20px;
+}
+
+.title .icon {
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.dropdown-item {
+    display:flex;
+    align-items:center;
+}
+
+.dropdown-item .image {
+    width: 32px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.tutorial {
+    margin: auto;
+    text-align: center;
+}
+
+.column {
+    margin-bottom: 20px;
+}
+
+.left {
+    margin-right: 10px;
+}
+
+.right {
+    margin-left: 10px;
+}
+
+.figure {
+    height: 300px;
+    margin-bottom: 100px;
+}
