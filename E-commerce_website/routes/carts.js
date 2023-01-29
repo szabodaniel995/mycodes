@@ -53,7 +53,7 @@ router.get("/cart", async (req, res) => {
     for (let item of cart.items) {
 
         const product = await productsRepo.getOne(item.id);
-        // hogy ezt a product-t be tudjuk dobni a template-be egyszerűen, simán hozzádobjuk az item objecthoz, s csá. De nem updateljük a repo-t
+        // hogy ezt a product-t be tudjuk dobni a template-be egyszerűen, simán hozzádobjuk az item objecthoz. De nem updateljük a repo-t
         item.product = product;
     }
     res.send(cartShowTemplate({ items: cart.items }));
