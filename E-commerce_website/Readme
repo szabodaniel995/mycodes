@@ -1,0 +1,14 @@
+This is a small E-commerce website project that stores data on a local HDD in JSON files, and is configured to be hosted from a personal computer with the help of Ngrok.
+
+Built with JavaScript, NodeJs, ExpressJs, HTML, CSS
+
+Includes:
+Multiple pages with Express
+Form validation with Express-validator
+Automatic local file management with Node (data storage)
+Password hashing + salting
+Authentication with cookies
+Tracking of individual user's carts with cookies (without logging in)
+HTML pages are served from locally saved JavaScript files from the "views" folder
+
+Can be hosted globally on demand
