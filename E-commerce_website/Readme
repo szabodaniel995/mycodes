@@ -13,4 +13,9 @@ HTML pages are served from locally saved JavaScript files from the "views" folde
 
 Can be hosted globally on demand
 
-Beacuse the website is not hosted, images of the website have been included in "Preview images" folder
+Beacuse the website currently is not hosted, images of the website have been included in "Preview images" folder
+
+Instructions to try out:
+Download content
+Run index.js with node from the root folder ("node index.js")
+Open localhost:80 and localhost:80/signup in browser // copy the ngrok link from node console and open it in browser
